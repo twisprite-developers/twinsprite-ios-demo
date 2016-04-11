@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "feea3860-c99f-11e5-942f-ab205f006ec4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "feea3860-c99f-11e5-942f-ab205f006ec4" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "feea3860-c99f-11e5-942f-ab205f006ec4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "9EAE41FF-4FD1-4304-AA31-13F5475DAA23",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "feea3860-c99f-11e5-942f-ab205f006ec4" : "TwinspriteSDKV2\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TwinSprite",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Entrega\/TwinSpriteIOS\/ejemplo\/TwinSprite\/TwinSprite.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/oakshiro.synology.me\/TwinspriteSDKV2",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "feea3860-c99f-11e5-942f-ab205f006ec4"
+    }
+  ]
+}

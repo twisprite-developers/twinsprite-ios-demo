@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3828F15E189F946900134358 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3828F15C189F8EED00134358 /* AdSupport.framework */; };
+		38B0DBDD1886957E007B3CC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B0DBDC1886957E007B3CC4 /* Foundation.framework */; };
+		38B0DBDF1886957E007B3CC4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B0DBDE1886957E007B3CC4 /* CoreGraphics.framework */; };
+		38B0DBE11886957E007B3CC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B0DBE01886957E007B3CC4 /* UIKit.framework */; };
+		38B0DBE71886957E007B3CC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38B0DBE51886957E007B3CC4 /* InfoPlist.strings */; };
+		38B0DBE91886957E007B3CC4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B0DBE81886957E007B3CC4 /* main.m */; };
+		38B0DBED1886957E007B3CC4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B0DBEC1886957E007B3CC4 /* AppDelegate.m */; };
+		38B0DBF01886957E007B3CC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38B0DBEE1886957E007B3CC4 /* Main.storyboard */; };
+		38B0DBF51886957E007B3CC4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38B0DBF41886957E007B3CC4 /* Images.xcassets */; };
+		38B0DBFC1886957E007B3CC4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B0DBFB1886957E007B3CC4 /* XCTest.framework */; };
+		38B0DBFD1886957E007B3CC4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B0DBDC1886957E007B3CC4 /* Foundation.framework */; };
+		38B0DBFE1886957E007B3CC4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B0DBE01886957E007B3CC4 /* UIKit.framework */; };
+		38B0DC061886957E007B3CC4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 38B0DC041886957E007B3CC4 /* InfoPlist.strings */; };
+		38B0DC081886957E007B3CC4 /* TwinSpriteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B0DC071886957E007B3CC4 /* TwinSpriteTests.m */; };
+		38B0DC1318869FA3007B3CC4 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B0DC1218869FA3007B3CC4 /* MainViewController.m */; };
+		38B0DC1618869FB4007B3CC4 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38B0DC1518869FB4007B3CC4 /* ScanViewController.m */; };
+		E7695E031C8EFB1B00784B04 /* libSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7695E021C8EFB1B00784B04 /* libSDK.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		38B0DBFF1886957E007B3CC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 38B0DBD11886957E007B3CC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 38B0DBD81886957E007B3CC4;
+			remoteInfo = TwinSprite;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3828F15C189F8EED00134358 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		383E7C4D1887CCC9008CDCB2 /* Toyx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Toyx.h; sourceTree = "<group>"; };
+		383E7C4E1887CCC9008CDCB2 /* ToyxCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToyxCompany.h; sourceTree = "<group>"; };
+		383E7C4F1887CCC9008CDCB2 /* ToyxModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToyxModel.h; sourceTree = "<group>"; };
+		383E7C501887CCC9008CDCB2 /* ToyxSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToyxSnapshot.h; sourceTree = "<group>"; };
+		383E7C511887CCC9008CDCB2 /* TwinSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwinSprite.h; sourceTree = "<group>"; };
+		38B0DBD91886957E007B3CC4 /* TwinSprite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwinSprite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B0DBDC1886957E007B3CC4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		38B0DBDE1886957E007B3CC4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		38B0DBE01886957E007B3CC4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		38B0DBE41886957E007B3CC4 /* TwinSprite-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwinSprite-Info.plist"; sourceTree = "<group>"; };
+		38B0DBE61886957E007B3CC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38B0DBE81886957E007B3CC4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		38B0DBEA1886957E007B3CC4 /* TwinSprite-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwinSprite-Prefix.pch"; sourceTree = "<group>"; };
+		38B0DBEB1886957E007B3CC4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		38B0DBEC1886957E007B3CC4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		38B0DBEF1886957E007B3CC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		38B0DBF41886957E007B3CC4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		38B0DBFA1886957E007B3CC4 /* TwinSpriteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwinSpriteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		38B0DBFB1886957E007B3CC4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		38B0DC031886957E007B3CC4 /* TwinSpriteTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwinSpriteTests-Info.plist"; sourceTree = "<group>"; };
+		38B0DC051886957E007B3CC4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		38B0DC071886957E007B3CC4 /* TwinSpriteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwinSpriteTests.m; sourceTree = "<group>"; };
+		38B0DC1118869FA3007B3CC4 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		38B0DC1218869FA3007B3CC4 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		38B0DC1418869FB4007B3CC4 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		38B0DC1518869FB4007B3CC4 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		E7695E021C8EFB1B00784B04 /* libSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDK.a; sourceTree = "<group>"; };
+		E7695E041C8EFB7600784B04 /* TwinSpriteContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwinSpriteContext.h; sourceTree = "<group>"; };
+		E7C0E0651C8EFDBE008ED1F9 /* CreationSessionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreationSessionRequest.h; sourceTree = "<group>"; };
+		E7C0E0661C8EFDBE008ED1F9 /* RedemptionRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RedemptionRequest.h; sourceTree = "<group>"; };
+		E7C0E0671C8EFDBE008ED1F9 /* ToyxQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToyxQuery.h; sourceTree = "<group>"; };
+		E7C0E0681C8EFDBE008ED1F9 /* TwinSpriteError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwinSpriteError.h; sourceTree = "<group>"; };
+		E7C0E0691C8EFDBE008ED1F9 /* TwinSpriteLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwinSpriteLog.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		38B0DBD61886957E007B3CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3828F15E189F946900134358 /* AdSupport.framework in Frameworks */,
+				38B0DBDF1886957E007B3CC4 /* CoreGraphics.framework in Frameworks */,
+				38B0DBE11886957E007B3CC4 /* UIKit.framework in Frameworks */,
+				38B0DBDD1886957E007B3CC4 /* Foundation.framework in Frameworks */,
+				E7695E031C8EFB1B00784B04 /* libSDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B0DBF71886957E007B3CC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B0DBFC1886957E007B3CC4 /* XCTest.framework in Frameworks */,
+				38B0DBFE1886957E007B3CC4 /* UIKit.framework in Frameworks */,
+				38B0DBFD1886957E007B3CC4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		383E7C4C1887CCC9008CDCB2 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E7C0E0651C8EFDBE008ED1F9 /* CreationSessionRequest.h */,
+				E7C0E0661C8EFDBE008ED1F9 /* RedemptionRequest.h */,
+				E7C0E0671C8EFDBE008ED1F9 /* ToyxQuery.h */,
+				E7C0E0681C8EFDBE008ED1F9 /* TwinSpriteError.h */,
+				E7C0E0691C8EFDBE008ED1F9 /* TwinSpriteLog.h */,
+				E7695E041C8EFB7600784B04 /* TwinSpriteContext.h */,
+				383E7C4D1887CCC9008CDCB2 /* Toyx.h */,
+				383E7C4E1887CCC9008CDCB2 /* ToyxCompany.h */,
+				383E7C4F1887CCC9008CDCB2 /* ToyxModel.h */,
+				383E7C501887CCC9008CDCB2 /* ToyxSnapshot.h */,
+				383E7C511887CCC9008CDCB2 /* TwinSprite.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		383E7C541887CCCC008CDCB2 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				E7695E021C8EFB1B00784B04 /* libSDK.a */,
+				383E7C4C1887CCC9008CDCB2 /* include */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+		38B0DBD01886957E007B3CC4 = {
+			isa = PBXGroup;
+			children = (
+				38B0DBE21886957E007B3CC4 /* TwinSprite */,
+				38B0DC011886957E007B3CC4 /* TwinSpriteTests */,
+				38B0DBDB1886957E007B3CC4 /* Frameworks */,
+				38B0DBDA1886957E007B3CC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		38B0DBDA1886957E007B3CC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				38B0DBD91886957E007B3CC4 /* TwinSprite.app */,
+				38B0DBFA1886957E007B3CC4 /* TwinSpriteTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38B0DBDB1886957E007B3CC4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3828F15C189F8EED00134358 /* AdSupport.framework */,
+				38B0DBDC1886957E007B3CC4 /* Foundation.framework */,
+				38B0DBDE1886957E007B3CC4 /* CoreGraphics.framework */,
+				38B0DBE01886957E007B3CC4 /* UIKit.framework */,
+				38B0DBFB1886957E007B3CC4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		38B0DBE21886957E007B3CC4 /* TwinSprite */ = {
+			isa = PBXGroup;
+			children = (
+				383E7C541887CCCC008CDCB2 /* lib */,
+				38B0DC1118869FA3007B3CC4 /* MainViewController.h */,
+				38B0DC1218869FA3007B3CC4 /* MainViewController.m */,
+				38B0DC1418869FB4007B3CC4 /* ScanViewController.h */,
+				38B0DC1518869FB4007B3CC4 /* ScanViewController.m */,
+				38B0DBEB1886957E007B3CC4 /* AppDelegate.h */,
+				38B0DBEC1886957E007B3CC4 /* AppDelegate.m */,
+				38B0DBEE1886957E007B3CC4 /* Main.storyboard */,
+				38B0DBF41886957E007B3CC4 /* Images.xcassets */,
+				38B0DBE31886957E007B3CC4 /* Supporting Files */,
+			);
+			path = TwinSprite;
+			sourceTree = "<group>";
+		};
+		38B0DBE31886957E007B3CC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38B0DBE41886957E007B3CC4 /* TwinSprite-Info.plist */,
+				38B0DBE51886957E007B3CC4 /* InfoPlist.strings */,
+				38B0DBE81886957E007B3CC4 /* main.m */,
+				38B0DBEA1886957E007B3CC4 /* TwinSprite-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		38B0DC011886957E007B3CC4 /* TwinSpriteTests */ = {
+			isa = PBXGroup;
+			children = (
+				38B0DC071886957E007B3CC4 /* TwinSpriteTests.m */,
+				38B0DC021886957E007B3CC4 /* Supporting Files */,
+			);
+			path = TwinSpriteTests;
+			sourceTree = "<group>";
+		};
+		38B0DC021886957E007B3CC4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				38B0DC031886957E007B3CC4 /* TwinSpriteTests-Info.plist */,
+				38B0DC041886957E007B3CC4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		38B0DBD81886957E007B3CC4 /* TwinSprite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38B0DC0B1886957E007B3CC4 /* Build configuration list for PBXNativeTarget "TwinSprite" */;
+			buildPhases = (
+				38B0DBD51886957E007B3CC4 /* Sources */,
+				38B0DBD61886957E007B3CC4 /* Frameworks */,
+				38B0DBD71886957E007B3CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwinSprite;
+			productName = TwinSprite;
+			productReference = 38B0DBD91886957E007B3CC4 /* TwinSprite.app */;
+			productType = "com.apple.product-type.application";
+		};
+		38B0DBF91886957E007B3CC4 /* TwinSpriteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 38B0DC0E1886957E007B3CC4 /* Build configuration list for PBXNativeTarget "TwinSpriteTests" */;
+			buildPhases = (
+				38B0DBF61886957E007B3CC4 /* Sources */,
+				38B0DBF71886957E007B3CC4 /* Frameworks */,
+				38B0DBF81886957E007B3CC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38B0DC001886957E007B3CC4 /* PBXTargetDependency */,
+			);
+			name = TwinSpriteTests;
+			productName = TwinSpriteTests;
+			productReference = 38B0DBFA1886957E007B3CC4 /* TwinSpriteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		38B0DBD11886957E007B3CC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = Carbonbyte;
+				TargetAttributes = {
+					38B0DBD81886957E007B3CC4 = {
+						DevelopmentTeam = STLKKCEMS7;
+					};
+					38B0DBF91886957E007B3CC4 = {
+						TestTargetID = 38B0DBD81886957E007B3CC4;
+					};
+				};
+			};
+			buildConfigurationList = 38B0DBD41886957E007B3CC4 /* Build configuration list for PBXProject "TwinSprite" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 38B0DBD01886957E007B3CC4;
+			productRefGroup = 38B0DBDA1886957E007B3CC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				38B0DBD81886957E007B3CC4 /* TwinSprite */,
+				38B0DBF91886957E007B3CC4 /* TwinSpriteTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		38B0DBD71886957E007B3CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B0DBF51886957E007B3CC4 /* Images.xcassets in Resources */,
+				38B0DBE71886957E007B3CC4 /* InfoPlist.strings in Resources */,
+				38B0DBF01886957E007B3CC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B0DBF81886957E007B3CC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B0DC061886957E007B3CC4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		38B0DBD51886957E007B3CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B0DBED1886957E007B3CC4 /* AppDelegate.m in Sources */,
+				38B0DC1318869FA3007B3CC4 /* MainViewController.m in Sources */,
+				38B0DBE91886957E007B3CC4 /* main.m in Sources */,
+				38B0DC1618869FB4007B3CC4 /* ScanViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		38B0DBF61886957E007B3CC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38B0DC081886957E007B3CC4 /* TwinSpriteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		38B0DC001886957E007B3CC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 38B0DBD81886957E007B3CC4 /* TwinSprite */;
+			targetProxy = 38B0DBFF1886957E007B3CC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		38B0DBE51886957E007B3CC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38B0DBE61886957E007B3CC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		38B0DBEE1886957E007B3CC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38B0DBEF1886957E007B3CC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		38B0DC041886957E007B3CC4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				38B0DC051886957E007B3CC4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		38B0DC091886957E007B3CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		38B0DC0A1886957E007B3CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		38B0DC0C1886957E007B3CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwinSprite/TwinSprite-Prefix.pch";
+				INFOPLIST_FILE = "TwinSprite/TwinSprite-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TwinSprite",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		38B0DC0D1886957E007B3CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwinSprite/TwinSprite-Prefix.pch";
+				INFOPLIST_FILE = "TwinSprite/TwinSprite-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TwinSprite",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		38B0DC0F1886957E007B3CC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TwinSprite.app/TwinSprite";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwinSprite/TwinSprite-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TwinSpriteTests/TwinSpriteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		38B0DC101886957E007B3CC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TwinSprite.app/TwinSprite";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwinSprite/TwinSprite-Prefix.pch";
+				INFOPLIST_FILE = "TwinSpriteTests/TwinSpriteTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		38B0DBD41886957E007B3CC4 /* Build configuration list for PBXProject "TwinSprite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B0DC091886957E007B3CC4 /* Debug */,
+				38B0DC0A1886957E007B3CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38B0DC0B1886957E007B3CC4 /* Build configuration list for PBXNativeTarget "TwinSprite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B0DC0C1886957E007B3CC4 /* Debug */,
+				38B0DC0D1886957E007B3CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		38B0DC0E1886957E007B3CC4 /* Build configuration list for PBXNativeTarget "TwinSpriteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				38B0DC0F1886957E007B3CC4 /* Debug */,
+				38B0DC101886957E007B3CC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 38B0DBD11886957E007B3CC4 /* Project object */;
+}

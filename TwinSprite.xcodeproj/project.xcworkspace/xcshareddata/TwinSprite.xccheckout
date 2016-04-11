@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9EAE41FF-4FD1-4304-AA31-13F5475DAA23</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TwinSprite</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>70EEFB9F-E99D-43CC-BABC-0023F0B1C3CB</key>
+		<string>svn://oakshiro.synology.me/TwinspriteSDK</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iOS/ejemplo/TwinSprite/TwinSprite.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>70EEFB9F-E99D-43CC-BABC-0023F0B1C3CB</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>70EEFB9F-E99D-43CC-BABC-0023F0B1C3CB</key>
+		<string>svn://oakshiro.synology.me/TwinspriteSDK</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>svn://oakshiro.synology.me/TwinspriteSDK/iOS/ejemplo/TwinSprite/TwinSprite.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>70EEFB9F-E99D-43CC-BABC-0023F0B1C3CB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>70EEFB9F-E99D-43CC-BABC-0023F0B1C3CB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TwinspriteSDK</string>
+		</dict>
+	</array>
+</dict>
+</plist>
